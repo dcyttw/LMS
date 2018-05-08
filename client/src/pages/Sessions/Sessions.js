@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import { Col, Row, Container } from "../../components/Grid";
+import Jumbotron from "../../components/Jumbotron";
 
 class Sessions extends Component {
   // Setting our component's initial state
