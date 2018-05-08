@@ -1,19 +1,25 @@
 import React, { Component } from "react";
-import "./App.css";
+import Attendance from "./pages/Attendance";
+import Browse from "./pages/Browse";
+import Dashboard from "./pages/Dashboard";
+import Grades from "./pages/Grades";
+import Login from "./pages/Login";
+import Sessions from "./pages/Sessions";
+import User from "./pages/User";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <div>
+      <Navbar />
+      <Route path="/" component={Login} />
+      <Route exact path="/attendance" component={Attendance} />
+      <Route exact path="/browse" component={Browse} />
+      <Route exact path="/dashboard" component={Dashboard} />
+      <Route exact path="/grades" component={Grades} />
+      <Route exact path="/sessions" component={Sessions} />
+      <Route exact path="/user:id" component={User} />
+    </div>
+  </Router>
+);
 
 export default App;
