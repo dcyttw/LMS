@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "../components/Navbar";
-import Jumbotron from "../components/Jumbotron"
-import Footer from "../components/Footer";
+import { Col, Row, Container } from "../../components/Grid";
+import Jumbotron from "../../components/Jumbotron";
 
 class Attendance extends Component {
   // Setting our component's initial state
@@ -14,12 +13,14 @@ class Attendance extends Component {
 
   render() {
     return (
-      <Container fluid>
+      <Container>
         <Row>
           <Col>
-            <Jumbotron>
-              <h1>Northwestern Coding Bootcamp</h1>
-            </Jumbotron>
+          <Jumbotron>
+            <h1 className="text-center">
+              Northwestern Coding Bootcamp
+            </h1>
+          </Jumbotron>
           </Col>
           <Col size="md-6 sm-12">
             //Auth0 Stuff

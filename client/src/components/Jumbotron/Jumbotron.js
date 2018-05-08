@@ -1,10 +1,10 @@
 import React from "react";
 import "./Jumbotron.css";
 
-const Jumbotron = () => (
-  <Jumbotron>
-    <h1>Northwestern Coding Bootcamp</h1>
-  </Jumbotron>>
+const Jumbotron = ({ children }) => (
+  <div className="jumbotron mt-2">
+    {children}
+  </div>
 );
 
 export default Jumbotron;

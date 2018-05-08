@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
+import Attendance from "./pages/Attendance";
 import Browse from "./pages/Browse";
 import Dashboard from "./pages/Dashboard";
 import Grades from "./pages/Grades";

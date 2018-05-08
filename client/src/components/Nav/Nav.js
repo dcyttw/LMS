@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Col, Row, Container } from "../../components/Grid";
 import "./Nav.css";
-import Logo from "./Logo";
+import Logo from "../Logo";
 
 const Nav = () => (
   <nav>
