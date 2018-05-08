@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Attendance from "./pages/Attendance";
 import Browse from "./pages/Browse";
 import Dashboard from "./pages/Dashboard";
