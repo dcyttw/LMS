@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Attendance from "./pages/Attendance";
+import Nav from "./components/Nav";
 import Browse from "./pages/Browse";
 import Dashboard from "./pages/Dashboard";
 import Grades from "./pages/Grades";
@@ -11,7 +11,7 @@ import User from "./pages/User";
 const App = () => (
   <Router>
     <div>
-      <Navbar />
+      <Nav />
       <Route path="/" component={Login} />
       <Route exact path="/attendance" component={Attendance} />
       <Route exact path="/browse" component={Browse} />
