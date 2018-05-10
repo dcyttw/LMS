@@ -20,6 +20,8 @@ class Login extends Component {
               <h1>Northwestern Coding Bootcamp</h1>
             </Jumbotron>
           </Col>
+        </Row>
+        <Row>
           <Col size="md-6 sm-12">
             //Auth0 Stuff
           </Col>
