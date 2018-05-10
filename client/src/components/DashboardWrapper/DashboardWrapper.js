@@ -1,6 +1,6 @@
 import React from "react";
-import "./HomeworkListing.css";
+import "./DashboardWrapper.css";
 
-const Wrapper = props => <main className="hwlisting" {...props} />;
+const DashboardWrapper = props => <main className="dashboard" {...props} />;
 
-export default HomeworkListing;
+export default DashboardWrapper;
