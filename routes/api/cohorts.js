@@ -7,8 +7,7 @@ router.route("/")
   .post(cohortsController.create);
 
 // Matches with "/api/cohorts/:id"
-router
-  .route("/:id")
+router.route("/:id")
   .get(cohortsController.findById)
   .put(cohortsController.update)
   .delete(cohortsController.remove);
