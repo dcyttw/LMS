@@ -1,3 +1,4 @@
 module.exports = {
-  Cohort: require("./cohort")
+  Cohort: require("./cohort"),
+  Session: require("./session")
 };

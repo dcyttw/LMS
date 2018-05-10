@@ -6,6 +6,6 @@ const cohortSchema = new Schema({
   date: { type: Date, default: Date.now }
 });
 
-const Book = mongoose.model("Cohort", cohortSchema);
+const Cohort = mongoose.model("Cohort", cohortSchema);
 
-module.exports = Book;
+module.exports = Cohort;
