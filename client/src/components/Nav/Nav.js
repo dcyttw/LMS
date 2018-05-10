@@ -32,9 +32,9 @@ const Nav = () => (
           <li className="pipe">|</li>
           <li className="navLi">
             <Link
-              to="/session:id"
+              to="/sessions"
               className={
-                window.location.pathname === "/session:id" ? "navLink active" : "navLink"
+                window.location.pathname === "/sessions" ? "navLink active" : "navLink"
               }
             >
               Sessions
