@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import Jumbotron from "../../components/Jumbotron";
 import Profile from "../../components/Profile";
 import Dashboard from "../../components/DashboardWrapper";
 

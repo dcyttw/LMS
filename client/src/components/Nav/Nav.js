@@ -9,9 +9,9 @@ const Nav = () => (
     <Row className="show-grid">
       <Col xs={6} md={4}>
       <Link
-        to="/"
+        to="/dashboard"
         className={
-          window.location.pathname === "/" ? "navLink active" : "navLink"
+          window.location.pathname === "/dashboard" ? "navLink active" : "navLink"
         }
       >
         <Logo />
@@ -21,9 +21,9 @@ const Nav = () => (
         <ul className="nav nav-tabs navBar">
           <li className="navLi">
             <Link
-              to="/"
+              to="/dashboard"
               className={
-                window.location.pathname === "/" ? "navLink active" : "navLink"
+                window.location.pathname === "/dashboard" ? "navLink active" : "navLink"
               }
             >
               Home
@@ -67,9 +67,7 @@ const Nav = () => (
       <Col>
         <Link
           to="/"
-          className={
-            window.location.pathname === "/" ? "logoutLink active" : "navLink"
-          }
+          className="logoutLink navLink"
         >
           Logout
         </Link>
