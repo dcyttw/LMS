@@ -16,9 +16,7 @@ class Grades extends Component {
       <Container fluid>
         <Row>
           <Col>
-            <Jumbotron>
-              <h1>Northwestern Coding Bootcamp</h1>
-            </Jumbotron>
+            //Profile Stuff
           </Col>
           <Col size="md-6 sm-12">
             //Auth0 Stuff

@@ -8,45 +8,55 @@ const Nav = () => (
   <nav>
     <Row className="show-grid">
       <Col xs={6} md={4}>
+      <Link
+        to="/"
+        className={
+          window.location.pathname === "/" ? "navLink active" : "navLink"
+        }
+      >
         <Logo />
+        </Link>
       </Col>
       <Col xs={6} md={4}>
-        <ul className="nav nav-tabs">
-          <li className="nav-item">
+        <ul className="nav nav-tabs navBar">
+          <li className="navLi">
             <Link
               to="/"
               className={
-                window.location.pathname === "/" ? "nav-link active" : "nav-link"
+                window.location.pathname === "/" ? "navLink active" : "navLink"
               }
             >
               Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="pipe">|</li>
+          <li className="navLi">
             <Link
               to="/session:id"
               className={
-                window.location.pathname === "/session:id" ? "nav-link active" : "nav-link"
+                window.location.pathname === "/session:id" ? "navLink active" : "navLink"
               }
             >
               Sessions
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="pipe">|</li>
+          <li className="navLi">
             <Link
               to="/grades"
               className={
-                window.location.pathname === "/grades" ? "nav-link active" : "nav-link"
+                window.location.pathname === "/grades" ? "navLink active" : "navLink"
               }
             >
               Grades
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="pipe">|</li>
+          <li className="navLi">
             <Link
               to="/attendance"
               className={
-                window.location.pathname === "/attendance" ? "nav-link active" : "nav-link"
+                window.location.pathname === "/attendance" ? "navLink active" : "navLink"
               }
             >
               Attendance
@@ -54,11 +64,11 @@ const Nav = () => (
           </li>
         </ul>
       </Col>
-      <Col xsHidden md={4}>
+      <Col>
         <Link
-          to="/attendance"
+          to="/"
           className={
-            window.location.pathname === "/login" ? "nav-link active" : "nav-link"
+            window.location.pathname === "/" ? "logoutLink active" : "navLink"
           }
         >
           Logout

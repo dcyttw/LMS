@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Col = ({ size, children }) => (
-  <div>
+  <div className="col">
     {children}
   </div>
 );

@@ -8,10 +8,11 @@ import Grades from "./pages/Grades";
 import Login from "./pages/Login";
 import Sessions from "./pages/Sessions";
 import User from "./pages/User";
+import Wrapper from "./components/Wrapper";
 
 const App = () => (
   <Router>
-    <div>
+    <Wrapper>
       <Nav />
       <Route path="/" component={Login} />
       <Route exact path="/attendance" component={Attendance} />
@@ -20,7 +21,7 @@ const App = () => (
       <Route exact path="/grades" component={Grades} />
       <Route exact path="/sessions" component={Sessions} />
       <Route exact path="/user:id" component={User} />
-    </div>
+    </Wrapper>
   </Router>
 );
 

@@ -1,3 +1,55 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+nav{
+  width:100%;
+  background-color: #233240;
+  height: 72px;
+  color:#FFF;
+}
+nav a{
+  color:#FFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav a:hover{
+  color:#FFF;
+  text-decoration: none;
+}
+.navBar{
+  padding: 23px 0 0 0;
+  width: 67%;
+  margin: 0 auto;
+  border-bottom: none;
+}
+.navLi{
+  text-align: center;
+  padding-right: 10px;
+}
+.navLi:last-child{
+  padding-right: 0;
+}
+.navLink{
+  margin: 0;
+  padding: 0 0 3px 0;
+}
+.navLink.active,
+.navLink:hover{
+  border-bottom: 2px solid #80DE84;
+}
+nav .pipe{
+  padding-right: 10px;
+}
+.logoutLink{
+  padding: 10px 15px;
+  margin-top: 15px;
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin-right: 20px;
+}
+.logoutLink:hover{
+  background-color:#80DE84;
+  border-radius: 3px;
+  color:#233240;
+}
