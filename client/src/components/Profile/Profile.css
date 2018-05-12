@@ -1,1 +1,126 @@
+.ProfileBucket{
+  width:262px;
+  height: auto;
+  margin: 0 auto;
+  color: #FFF;
+  font-size: 16px;
+}
+.ProfileBucket h2{
+  font-size: 24px;
+  color: #FFF;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 18px 0;
+}
+.ProfileBucket h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 14px 0;
+  padding: 0 0 18px 0;
+  border-bottom: 1px solid #FFF;
+}
+.ProfileBucket ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ProfileBucket ul li{
 
+}
+.notifications{
+
+}
+.userPic{
+  margin: 0 auto 40px auto;
+  padding: 26px 0 0 0;
+}
+.userPic img{
+  width:128px;
+  height: 128px;
+  margin: 0 auto;
+  display: block;
+}
+.userInfo{
+
+}
+.userProgress{
+  margin-bottom: 68px;
+}
+.userProgress h3{
+
+}
+.userProgress ul{
+
+}
+.userProgress ul li{
+
+}
+.userProgress ul.progressBlock{
+
+}
+.userProgress ul li .progLeft{
+
+}
+.userProgress ul li .progLeft{
+
+}
+.userProgress ul li .progRight{
+
+}
+.userGrade{
+
+}
+.userGradeText{
+
+}
+.userCompletion{
+
+}
+.userCompletionText{
+
+}
+.userOverdue{
+
+}
+.userOverdueText{
+
+}
+.userAttendance{
+
+}
+.progressBlock{
+
+}
+.userEarly{
+
+}
+.userEarlyDigit{
+
+}
+.userPresent{
+
+}
+.userPresentText{
+
+}
+.userLate{
+
+}
+.userLateText{
+
+}
+.userExcused{
+
+}
+.userExcusedText{
+
+}
+.userAbsent{
+
+}
+.userAbsentText{
+
+}
