@@ -1,14 +1,12 @@
 .footer {
-  min-height: 100px;
-  background: #E5E5E5;
-  position: relative;
+  height: 240px;
+  background: #233240;
+  width:100%;
 }
 
-.footer span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 3px;
-  background: #B8B8B8;
+.footer p {
+  padding: 34px 0 0 0;
+  color:#FFF;
+  text-align: center;
+  font-size: 12px;
 }
