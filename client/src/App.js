@@ -10,6 +10,7 @@ import Sessions from "./pages/Sessions";
 import NoMatch from "./pages/NoMatch";
 import User from "./pages/User";
 import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
 
 const App = () => (
   <Router>
@@ -25,6 +26,7 @@ const App = () => (
         <Route exact path="/user:id" component={User} />
         <Route component={NoMatch} />
       </Switch>
+      <Footer />
     </Wrapper>
   </Router>
 );

@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
   <footer className="footer">
-    <span> </span>
+    <p>&copy; 2018 Dennis Chi, Nick Volkert, Gheorghe Horopciuc</p>
   </footer>
 );
 

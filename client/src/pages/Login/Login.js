@@ -15,11 +15,9 @@ class Login extends Component {
     return (
       <Container fluid>
         <Row>
-          <Col>
             <Jumbotron>
               <h1>Northwestern Coding Bootcamp</h1>
             </Jumbotron>
-          </Col>
         </Row>
         <Row>
           <Col size="md-6 sm-12">
