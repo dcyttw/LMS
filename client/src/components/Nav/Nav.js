@@ -10,9 +10,7 @@ const Nav = () => (
       <Col xs={6} md={4}>
       <Link
         to="/dashboard"
-        className={
-          window.location.pathname === "/dashboard" ? "navLink active" : "navLink"
-        }
+        className="logoLink"
       >
         <Logo />
         </Link>
