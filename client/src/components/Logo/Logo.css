@@ -1,3 +1,22 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+.logoLink{
+  background: url(./../../bootspot.svg) no-repeat 0 0;
+  width:148px;
+  height: 32px;
+  display: block;
+  margin: 20px 0 0 20px;
+  background-size: 144px;
+  border: none;
+}
+.logoLink:hover{
+  background-position: 0 -50px;
+}
+.logoLink.navLink,
+.logoLink.navLink:hover{
+  border: none;
+}
+.logoLink h1{
+  display: none;
+}
