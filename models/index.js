@@ -1,4 +1,5 @@
 module.exports = {
   Cohort: require("./cohort"),
-  Session: require("./session")
+  Session: require("./session"),
+  Coursework: require("./coursework")
 };
