@@ -1,7 +1,7 @@
 [
   {
   	"title": "Integrated development environment (IDE)",
-  	"description": "Learn how to install and use the IntelliJ",
+  	"description": "Learn how to install and use the IntelliJ.",
   	"date": "2018-05-01"
   },
   {
@@ -15,13 +15,18 @@
   	"date": "2018-05-03"
   },
   {
+  	"title": "How to Create functions",
+  	"description": "Create functions in Java. Declare methods with input arguments and return types. Call the functions you create.",
+  	"date": "2018-05-04"
+  }
+  {
   	"title": "How to Create Loops",
   	"description": "Use for and while loops to iterate over a block of code. Learn how to write nested loops. Use 2D arrays to store and retrieve information.",
-  	"date": "2018-05-04"
+  	"date": "2018-05-05"
   },
   {
   	"title": "Debugging",
   	"description": "Use the IDE to find and solve problems in code.",
-  	"date": "2018-05-05"
+  	"date": "2018-05-06"
   }
 ]
