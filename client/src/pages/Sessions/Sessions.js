@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import Profile from "../../components/Profile";
 import DashboardWrapper from "../../components/DashboardWrapper";
+import ProfileWrapper from "../../components/ProfileWrapper";
 
 class Sessions extends Component {
   // Setting our component's initial state
@@ -17,7 +17,7 @@ class Sessions extends Component {
       <Container>
         <Row>
           <Col size="md-6 sm-12">
-            <Profile />
+            <ProfileWrapper />
           </Col>
           <Col>
             <DashboardWrapper />
