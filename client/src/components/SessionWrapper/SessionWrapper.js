@@ -1,6 +1,10 @@
 import React from "react";
 import "./SessionWrapper.css";
+import SessionListing from "../SessionListing";
 
-const Wrapper = props => <main className="hwwrapper" {...props} />;
-
+const SessionWrapper = () => (
+  <div className="SessionWrapper">
+    <SessionListing />
+  </div>
+);
 export default SessionWrapper;

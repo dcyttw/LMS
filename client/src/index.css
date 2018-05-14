@@ -3,8 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.container{
+.appContainer{
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #F0F0F0;
 }

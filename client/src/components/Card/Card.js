@@ -3,12 +3,7 @@ import CardBtn from "../CardBtn";
 import "./Card.css";
 
 const Card = props => (
-  <div
-    className="card"
-    style={{
-      backgroundImage: props.image ? `url(${props.image})` : "none"
-    }}
-  >
+  <div className="card">
     {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
     <CardBtn
       style={{ opacity: props.image ? 1 : 0 }}

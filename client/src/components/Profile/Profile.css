@@ -26,6 +26,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  text-align: center;
 }
 .ProfileBucket ul li{
 
@@ -34,7 +35,7 @@
 
 }
 .userPic{
-  margin: 0 auto 40px auto;
+  margin: 0 auto 26px auto;
   padding: 26px 0 0 0;
 }
 .userPic img{
@@ -47,7 +48,7 @@
 
 }
 .userProgress{
-  margin-bottom: 68px;
+  margin-bottom: 26px;
 }
 .userProgress h3{
 
