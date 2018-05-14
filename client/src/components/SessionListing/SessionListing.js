@@ -1,9 +1,9 @@
 import React from "react";
-import "./HomeworkListing.css";
+import "./SessionListing.css";
 import CardBtn from "../CardBtn";
 
-const HomeworkListing = () => (
-  <div className="listing">
+const SessionListing = () => (
+  <div className="col-md-6">
     <div className="card box-shadow h-md-250">
       <div className="cardBody">
         <h3>You Are Checked In</h3>
@@ -18,4 +18,4 @@ const HomeworkListing = () => (
   </div>
 );
 
-export default HomeworkListing;
+export default SessionListing;

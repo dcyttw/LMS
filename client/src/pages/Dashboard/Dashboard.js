@@ -16,12 +16,8 @@ class Dashboard extends Component {
     return (
       <Container>
         <Row>
-          <Col size="md-6 sm-12">
-            <ProfileWrapper />
-          </Col>
-          <Col>
-            <DashboardWrapper />
-          </Col>
+          <ProfileWrapper />
+          <DashboardWrapper />
         </Row>
       </Container>
     );

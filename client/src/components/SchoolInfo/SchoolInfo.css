@@ -1,7 +1,26 @@
-.jumbotron{
-  height:245px;
-  background-color: #9F9C9C;
-  text-align: center;
-  color: #FFF;
+.SchoolInfo{
+  margin-top: 15px;
+}
+#schoolLogo{
+  float: left;
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin-right: 12px;
+}
+.SchoolInfo h1{
   font-size: 22px;
+  color: #464646;
+  margin: 7px 0 3px 0;
+  padding: 0;
+}
+.SchoolInfo h3{
+  font-size: 12px;
+  color:#707070;
+}
+.SchoolInfo h2{
+  font-size: 18px;
+  color: #707070;
+  margin:10px 20px 0 0;
+  text-align: right;
 }
