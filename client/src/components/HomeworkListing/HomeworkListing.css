@@ -1,1 +1,59 @@
+.listing{
+  font-size: 14px;
+}
+.listing p{
+  margin-bottom:0;
+}
+.listing .listingCard{
+  border:2px solid #DDDDDD;
+  padding: 20px 28px 13px;
+  margin: 18px 0 30px;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+.listing .cardBody{
+  width:60%;
+  float: left;
+}
+.listing h3{
 
+  }
+.listing h3 a{
+
+}
+.homeworkInfo{
+
+}
+.classStatus{
+  color:#FD6161;
+  margin-right: 20px;
+  font-size: 17px;
+}
+.classType{
+  color:#7B8286;
+}
+.classInfo{
+  color:#373A3C;
+}
+.classPosted{
+  color:#7B8286;
+  margin-top: 25px;
+}
+.listing .checkInRight{
+  text-align: right;
+  float: right;
+  width: 30%;
+}
+.listing .checkInRight h2{
+  color:#4A4949;
+  font-size:26px;
+  margin: 0;
+  padding: 0;
+}
+.listing .checkInRight h3{
+  font-size:17px;
+  margin-bottom: 57px;
+}
+.listing .checkInRight h3.submitted{
+  color:#1FC125;
+}

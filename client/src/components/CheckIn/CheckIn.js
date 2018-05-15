@@ -4,7 +4,7 @@ import CardBtn from "../CardBtn";
 
 const CheckIn = () => (
   <div className="checkIn earlyCard">
-    <div className="card box-shadow h-md-250">
+    <div className="checkInCard clearfix">
       <div className="cardBody">
         <h3>You Are Checked In</h3>
         <p className="card-text"><a href="#">Class Name</a></p>
