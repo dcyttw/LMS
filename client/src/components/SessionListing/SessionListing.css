@@ -1,4 +1,69 @@
-.SessionWrapper h2{
-  color:#464646;
-  font-size: 22px;
+.sessionListing{
+  font-size: 14px;
+}
+.sessionListing p{
+  margin-bottom:0;
+}
+.sessionListing .sessionCard{
+  border:2px solid #DDDDDD;
+  padding: 20px 28px 13px;
+  margin: 18px 0 30px;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+.sessionListing .cardBody{
+  width:60%;
+  float: left;
+}
+.sessionListing h3{
+
+  }
+.sessionListing.earlyCard h2{
+  color:#1FC125;
+}
+.sessionListing.ontimeCard h2{
+  color:#00B2F6;
+}
+.sessionListing.lateCard h2,
+.sessionListing.absentCard h2{
+  color:#FD6161;
+}
+.sessionListingh3 a{
+
+}
+.homeworkInfo{
+
+}
+.classStatus{
+  color:#FD6161;
+  margin-right: 20px;
+  font-size: 17px;
+}
+.classType{
+  color:#7B8286;
+}
+.classInfo{
+  color:#373A3C;
+}
+.classPosted{
+  color:#7B8286;
+  margin-top: 22px;
+}
+.sessionListing .checkInRight{
+  text-align: right;
+  float: right;
+  width: 30%;
+}
+.sessionListing .checkInRight h2{
+  font-size:26px;
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-weight: bold;
+}
+.sessionListing .checkInRight h3{
+  font-size:17px;
+  margin-bottom: 57px;
+}
+.sessionListing .checkInRight h3.submitted{
+  color:#1FC125;
 }
