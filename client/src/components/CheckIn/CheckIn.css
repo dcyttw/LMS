@@ -26,6 +26,7 @@
 .checkIn h2{
   font-size: 26px;
   text-align: right;
+  font-weight: bold;
 }
 .checkIn.earlyCard h2{
   color:#1FC125;
