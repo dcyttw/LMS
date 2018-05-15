@@ -11,6 +11,8 @@ import NoMatch from "./pages/NoMatch";
 import User from "./pages/User";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
+import AdminDisplaySessions from "./admin/DisplaySessions";
+import AdminAddSession from "./admin/AddSession";
 
 const App = () => (
   <Router>
@@ -24,6 +26,8 @@ const App = () => (
         <Route exact path="/grades" component={Grades} />
         <Route exact path="/sessions" component={Sessions} />
         <Route exact path="/user:id" component={User} />
+        <Route exact path="/AdminDisplaySessions" component={AdminDisplaySessions} />
+        <Route exact path="/AdminAddSession" component={AdminAddSession} />
         <Route component={NoMatch} />
       </Switch>
       <Footer />
