@@ -1,5 +1,5 @@
 {
-  "name": "LMS",
+  "name": "bootspot",
   "version": "1.0.0",
   "description": "LMS built using MERN",
   "main": "server.js",
