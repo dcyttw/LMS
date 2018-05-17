@@ -20,5 +20,9 @@ export default {
   // Deletes a session with the given id
   deleteArticle: function(id) {
     return axios.delete("/api/sessions/" + id);
-  }
+  },
+  // Gets all courseworks
+  getCourseworks: function() {
+    return axios.get("/api/courseworks");
+  },
 };
