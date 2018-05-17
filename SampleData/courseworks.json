@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Homework1",
+		"description": "1st Homework",
+		"dueDate": "2018-05-19"
+	},
+	{
+		"title": "Homework2",
+		"description": "2nd Homework",
+		"dueDate": "2018-05-20"
+	},
+	{
+		"title": "Homework3",
+		"description": "3rd Homework",
+		"dueDate": "2018-05-21"
+	},
+	{
+		"title": "Homework4",
+		"description": "4th Homework",
+		"dueDate": "2018-05-22"
+	},
+	{
+		"title": "Final Project",
+		"description": "Final Project",
+		"dueDate": "2018-05-23"
+	}
+]

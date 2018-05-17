@@ -1,32 +1,38 @@
 [
-  {
-  	"title": "Integrated development environment (IDE)",
-  	"description": "Learn how to install and use the IntelliJ.",
-  	"date": "2018-05-01"
-  },
-  {
-  	"title": "How to write Java syntax and create variables",
-  	"description": "Discover the basic idea behind programming. Write your first Java program. Use variables to store and retrieve information.",
-  	"date": "2018-05-02"
-  },
-  {
-  	"title": "Using Methods and Conditional Statements",
-  	"description": "Use if-else statements and switch-case statements. Write Java programs to tackle any decision makeing scenario.",
-  	"date": "2018-05-03"
-  },
-  {
-  	"title": "How to Create functions",
-  	"description": "Create functions in Java. Declare methods with input arguments and return types. Call the functions you create.",
-  	"date": "2018-05-04"
-  }
-  {
-  	"title": "How to Create Loops",
-  	"description": "Use for and while loops to iterate over a block of code. Learn how to write nested loops. Use 2D arrays to store and retrieve information.",
-  	"date": "2018-05-05"
-  },
-  {
-  	"title": "Debugging",
-  	"description": "Use the IDE to find and solve problems in code.",
-  	"date": "2018-05-06"
-  }
+	{
+		"cohortID: "",
+  		"title": "Integrated development environment (IDE)",
+  		"description": "Learn how to install and use the IntelliJ.",
+  		"date": "2018-05-18"
+  	},
+	{
+		"cohortID: "",
+	  	"title": "How to write Java syntax and create variables",
+	  	"description": "Discover the basic idea behind programming. Write your first Java program. Use variables to store and retrieve information.",
+  		"date": "2018-05-19"
+  	},
+  	{
+		"cohortID: "",
+  		"title": "Using Methods and Conditional Statements",
+  		"description": "Use if-else statements and switch-case statements. Write Java programs to tackle any decision makeing scenario.",
+  		"date": "2018-05-20"
+  	},
+  	{
+		"cohortID: "",
+  		"title": "How to Create functions",
+  		"description": "Create functions in Java. Declare methods with input arguments and return types. Call the functions you create.",
+  		"date": "2018-05-21"
+  	},
+  	{
+		"cohortID: "",
+  		"title": "How to Create Loops",
+  		"description": "Use for and while loops to iterate over a block of code. Learn how to write nested loops. Use 2D arrays to store and retrieve information.",
+  		"date": "2018-05-22"
+  	},
+	{
+		"cohortID: "",
+	  	"title": "Debugging",
+	  	"description": "Use the IDE to find and solve problems in code.",
+	  	"date": "2018-05-23"
+	}
 ]
