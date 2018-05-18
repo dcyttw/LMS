@@ -21,7 +21,7 @@ class Login extends Component {
         </Row>
         <Row>
           <Col size="md-6 sm-12">
-            //Auth0 Stuff
+            {/*Auth0 Stuff*/}
           </Col>
         </Row>
       </Container>

@@ -12,6 +12,7 @@ const SessionListing = props => (
       </div>
       <div className="checkInRight">
         <h2>Early</h2>
+        <button className="btn btn-primary" onClick={() => props.handleCheckInButton(props._id)}>Check-In</button>
       </div>
     </div>
   </div>
