@@ -19,6 +19,13 @@ class SessionWrapper extends Component {
 			this.setState({ sessions: res.data });
 		});
   }
+	// When check-in button is clicked, add attendance to db
+	handleCheckInButton = (id) => {
+		const findSessionByID = this.state.sessions.find((session) => session._id === id);
+    const newAttendance = { sessionID: id, status: "Present" };
+    console.log(findSessionByID);
+    console.log(newAttendance);
+	}
 	render() {
     return (
       <div className="SessionWrapper">
@@ -28,9 +35,11 @@ class SessionWrapper extends Component {
 				) : (
           this.state.sessions.map(session => (
             <SessionListing
+              _id={session._id}
               title={session.title}
               description={session.description}
               date={session.date}
+              handleCheckInButton={this.handleCheckInButton}
             />
           ))
         )}
